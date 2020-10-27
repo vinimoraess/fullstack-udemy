@@ -33,6 +33,9 @@ footer{
 h2{
     color: #828271;
 }
+img{
+    border: 10px solid #C5C5B2;
+}
 /*-------------ESTILIZAÇÃO DOS LINKS-------------------*/
 .navegacao a{
     text-decoration: none;
