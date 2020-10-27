@@ -1,0 +1,48 @@
+body{
+    background: url("img/fundo.png");
+    font: 16px Arial, Helvetica, sans-serif;  
+}
+
+footer{
+    height: 80px;
+    text-align: center;
+    background-color:#C5C5B2 ;
+    font-weight: bolder;
+    line-height: 80px;
+}
+/*---------------ESTILIZAÇÃO DAS IDS--------------*/
+#container{
+    margin: 0 auto;    
+    width: 900px;
+}
+
+/*----------------ESTILIZAÇÃO DAS CLASSES-----------*/
+.capa{
+    margin-bottom: 2px;    
+}
+.navegacao{
+    padding: 20px;
+    background-color:  #C5C5B2;
+}
+.corpo{
+    background-color: #E8E8D9;
+    padding: 15px;   
+}
+
+/*----------------ESTILIZAÇÃO DOS DEMAIS ELEMENTOS-----------*/
+h2{
+    color: #828271;
+}
+/*-------------ESTILIZAÇÃO DOS LINKS-------------------*/
+.navegacao a{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: bolder;
+}
+.navegacao a:visited, .navegacao a:link{
+    color: #4B5676;
+}
+.navegacao a:hover{
+    background:#4B5676 ;
+    color:#C5C5B2 ;
+}
