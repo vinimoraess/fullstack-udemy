@@ -1,0 +1,105 @@
+/*-----------------configurações universais----------------------*/
+*{
+    margin: 0px;
+    padding: 0px;    
+}
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    background: #e6e6e6
+}
+/*----------------configuração das ID's-------------------------*/
+#capa{
+    background: #f7b600;
+    text-align: center;
+}
+#logo,#menu{
+    padding: 20px;
+}
+#principal{
+    width: 920px;
+    margin: 0px auto;
+}
+#noticia-central{
+    float: left;
+    width: 650px;
+    margin-top: 20px;
+}
+
+#noticia-lateral{
+    float: right;
+    width: 240px;
+    margin-top: 20px;
+}
+
+#rodape{
+    clear: both;
+    text-align: center;
+    background: #ccc;
+    padding:15px;
+    font-weight: bolder;
+}
+/*----------------configuração das Classes----------------------*/
+.postagem-central{    
+    padding: 15px;    
+    margin-bottom: 20px;
+    background: #fff;
+}
+.postagem-lateral{    
+    padding: 10px;    
+    background: #fff;
+    margin-bottom: 20px;
+}
+.noticia-lateral{
+    font-size: 0.9em;
+    border-bottom:1px dotted #ccc ;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.branco{
+    color: #fff;
+}
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #ccc;
+    display: block;    
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+/*----------------configurações gerais--------------------------*/
+h1{
+    font-size: 2em;
+    color: #4e4e4e;    
+    padding: 15px;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    background: #ccc;
+    padding: 5px;
+    color: #565656;
+}
+img{
+    width: 620px;
+}
+/*----------------configuração dos links------------------------*/
+a{    
+    font-size: 1.1em;
+    text-decoration: none;  
+}
+a:link, a:visited{
+    color: #f7b600;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#menu a:link, #menu a:visited{
+    color: #fff;
+    padding: 10px;
+}
+#menu a:hover{
+    background: #fff;
+    color: #f7b600;
+}
